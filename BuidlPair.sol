@@ -2,13 +2,13 @@
 
 pragma solidity >=0.5.16;
 
-import './interfaces/IBuidlPair.sol';
-import './BuidlERC20.sol';
-import './libraries/Math.sol';
-import './libraries/UQ112x112.sol';
-import './interfaces/IERC20.sol';
-import './interfaces/IBuidlFactory.sol';
-import './interfaces/IBuidlCallee.sol';
+import 'https://github.com/duckommando/buidl-swap-core/blob/main/interfaces/IBuidlPair.sol';
+import 'https://github.com/duckommando/buidl-swap-core/blob/main/BuidlERC20.sol';
+import 'https://github.com/duckommando/buidl-swap-core/blob/main/libraries/Math.sol';
+import 'https://github.com/duckommando/buidl-swap-core/blob/main/libraries/UQ112x112.sol';
+import 'https://github.com/duckommando/buidl-swap-core/blob/main/interfaces/IERC20.sol';
+import 'https://github.com/duckommando/buidl-swap-core/blob/main/interfaces/IBuidlFactory.sol';
+import 'https://github.com/duckommando/buidl-swap-core/blob/main/interfaces/IBuidlCallee.sol';
 
 contract BuidlPair is IBuidlPair, BuidlERC20 {
     using SafeMath  for uint;
