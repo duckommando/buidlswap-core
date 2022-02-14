@@ -2,8 +2,8 @@
 
 pragma solidity >=0.5.16;
 
-import './interfaces/IBuidlERC20.sol';
-import './libraries/SafeMath.sol';
+import 'https://github.com/duckommando/buidl-swap-core/blob/main/interfaces/IBuidlPair.sol';
+import 'https://github.com/duckommando/buidl-swap-core/blob/main/libraries/SafeMath.sol';
 
 contract BuidlERC20 is IBuidlERC20 {
     using SafeMath for uint256;
