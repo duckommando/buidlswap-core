@@ -2,8 +2,8 @@
 
 pragma solidity =0.5.16;
 
-import './interfaces/IBuidlFactory.sol';
-import './BuidlPair.sol';
+import 'https://github.com/duckommando/buidl-swap-core/blob/main/interfaces/IBuidlFactory.sol';
+import 'https://github.com/duckommando/buidl-swap-core/blob/main/BuidlPair.sol';
 
 contract BuidlFactory is IBuidlFactory {
     bytes32 public constant INIT_CODE_PAIR_HASH = keccak256(abi.encodePacked(type(BuidlPair).creationCode));
